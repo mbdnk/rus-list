@@ -27,3 +27,5 @@ nftset=/protonmail.com/4#inet#fw4#vpn_domains
 nftset=/godaddy.com/4#inet#fw4#vpn_domains
 nftset=/4pda.ru/4#inet#fw4#vpn_domains
 nftset=/4pda.to/4#inet#fw4#vpn_domains
+nftset=/miro.com/4#inet#fw4#vpn_domains
+
