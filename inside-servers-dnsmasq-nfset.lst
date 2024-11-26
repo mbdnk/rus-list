@@ -1,2 +1,4 @@
 nftset=/charts.bitnami.com/4#inet#fw4#vpn_domains
 nftset=/bitnami.com/4#inet#fw4#vpn_domains
+nftset=/repo.broadcom.com/4#inet#fw4#vpn_domains
+nftset=/broadcom.com/4#inet#fw4#vpn_domains
