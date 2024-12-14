@@ -30,4 +30,6 @@ nftset=/4pda.to/4#inet#fw4#vpn_domains
 nftset=/miro.com/4#inet#fw4#vpn_domains
 nftset=/speedtest.net/4#inet#fw4#vpn_domains
 nftset=/medium.com/4#inet#fw4#vpn_domains
+nftset=/grafana.com/4#inet#fw4#vpn_domains
+
 
