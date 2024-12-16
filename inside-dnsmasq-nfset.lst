@@ -39,4 +39,8 @@ nftset=/apis.google.com/4#inet#fw4#vpn_domains
 nftset=/accounts.google.com/4#inet#fw4#vpn_domains
 nftset=/waa-pa.clients6.google.com/4#inet#fw4#vpn_domains
 nftset=/ogs.google.com/4#inet#fw4#vpn_domains
+nftset=/cdn.bigsv.ru/4#inet#fw4#vpn_domains
+nftset=/cdn.trafficbass.com/4#inet#fw4#vpn_domains
+nftset=/z.cdn.trafficbass.com/4#inet#fw4#vpn_domains
+nftset=/z.cdn.adtwister.me/4#inet#fw4#vpn_domains
 
