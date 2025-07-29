@@ -53,3 +53,12 @@ nftset=/fonts.gstatic.com/4#inet#fw4#vpn_domains
 nftset=/googleads.g.doubleclick.net/4#inet#fw4#vpn_domains
 nftset=/googleads.g.doubleclick.net/4#inet#fw4#vpn_domains
 nftset=/static.doubleclick.net/4#inet#fw4#vpn_domains
+nftset=/wide-youtube.l.google.com/4#inet#fw4#vpn_domains
+nftset=/youtube-nocookie.com/4#inet#fw4#vpn_domains
+nftset=/youtube-ui.l.google.com/4#inet#fw4#vpn_domains
+nftset=/youtube.com/4#inet#fw4#vpn_domains
+nftset=/youtubeembeddedplayer.googleapis.com/4#inet#fw4#vpn_domains
+nftset=/youtubei.googleapis.com/4#inet#fw4#vpn_domains
+nftset=/youtubekids.com/4#inet#fw4#vpn_domains
+nftset=/yt-video-upload.l.google.com/4#inet#fw4#vpn_domains
+
