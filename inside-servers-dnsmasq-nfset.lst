@@ -3,4 +3,5 @@ nftset=/bitnami.com/4#inet#fw4#vpn_domains
 nftset=/repo.broadcom.com/4#inet#fw4#vpn_domains
 nftset=/broadcom.com/4#inet#fw4#vpn_domains
 nftset=/ghcr.io/4#inet#fw4#vpn_domains
-
+nftset=/goharbor.io/4#inet#fw4#vpn_domains
+nftset=/helm.goharbor.io/4#inet#fw4#vpn_domains
