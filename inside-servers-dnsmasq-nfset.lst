@@ -7,3 +7,4 @@ nftset=/goharbor.io/4#inet#fw4#vpn_domains
 nftset=/helm.goharbor.io/4#inet#fw4#vpn_domains
 nftset=/get.k3s.io/4#inet#fw4#vpn_domains
 nftset=/k3s.io/4#inet#fw4#vpn_domains
+nftset=/cilium.io/4#inet#fw4#vpn_domains
