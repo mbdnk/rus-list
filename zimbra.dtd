@@ -1,4 +1,0 @@
-<!ENTITY % file SYSTEM "file:/opt/zimbra/conf/localconfig.xml">
-<!ENTITY % start "<![CDATA[">
-<!ENTITY % end "]]>">
-<!ENTITY % all "<!ENTITY fileContents '%start;%file;%end;'>">
