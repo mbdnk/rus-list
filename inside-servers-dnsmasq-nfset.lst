@@ -46,3 +46,38 @@ nftset=/a.claude.ai/4#inet#fw4#vpn_domains
 nftset=/a-cdn.claude.ai/4#inet#fw4#vpn_domains
 nftset=/assets.claude.ai/4#inet#fw4#vpn_domains
 nftset=/claude.app/4#inet#fw4#vpn_domains
+# Docker Hub (pull образов для k3s, MetalLB, KubeRay, vLLM)
+nftset=/docker.io/4#inet#fw4#vpn_domains
+nftset=/docker.com/4#inet#fw4#vpn_domains
+nftset=/registry-1.docker.io/4#inet#fw4#vpn_domains
+nftset=/auth.docker.io/4#inet#fw4#vpn_domains
+nftset=/index.docker.io/4#inet#fw4#vpn_domains
+nftset=/production.cloudflare.docker.com/4#inet#fw4#vpn_domains
+nftset=/download.docker.com/4#inet#fw4#vpn_domains
+
+# k3s releases (там лежат бинарники и образы)
+nftset=/release.k3s.io/4#inet#fw4#vpn_domains
+nftset=/update.k3s.io/4#inet#fw4#vpn_domains
+nftset=/github.com/k3s-io/4#inet#fw4#vpn_domains
+
+# MetalLB
+nftset=/metallb.io/4#inet#fw4#vpn_domains
+nftset=/metallb.github.io/4#inet#fw4#vpn_domains
+
+# Quay.io (оттуда тянутся образы KubeRay и MetalLB)
+nftset=/quay.io/4#inet#fw4#vpn_domains
+nftset=/*.quay.io/4#inet#fw4#vpn_domains
+
+# Официальные K8s образы (pause container и т.д.)
+nftset=/registry.k8s.io/4#inet#fw4#vpn_domains
+
+# Rancher (local-path-provisioner идёт оттуда)
+nftset=/github.com/rancher/4#inet#fw4#vpn_domains
+
+# Helm чарты
+nftset=/metallb.github.io/4#inet#fw4#vpn_domains
+nftset=/kuberay-helm.github.io/4#inet#fw4#vpn_domains
+
+# Google (для некоторых образов)
+nftset=/gcr.io/4#inet#fw4#vpn_domains
+nftset=/*.gcr.io/4#inet#fw4#vpn_domains
