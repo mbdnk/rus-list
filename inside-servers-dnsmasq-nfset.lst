@@ -81,3 +81,11 @@ nftset=/kuberay-helm.github.io/4#inet#fw4#vpn_domains
 # Google (для некоторых образов)
 nftset=/gcr.io/4#inet#fw4#vpn_domains
 nftset=/*.gcr.io/4#inet#fw4#vpn_domains
+
+nftset=/nvcr.io/4#inet#fw4#vpn_domains
+nftset=/*.nvcr.io/4#inet#fw4#vpn_domains
+nftset=/ngc.nvidia.com/4#inet#fw4#vpn_domains
+nftset=/*.ngc.nvidia.com/4#inet#fw4#vpn_domains
+nftset=/helm.ngc.nvidia.com/4#inet#fw4#vpn_domains
+nftset=/nvidia.com/4#inet#fw4#vpn_domains
+nftset=/*.nvidia.com/4#inet#fw4#vpn_domains
