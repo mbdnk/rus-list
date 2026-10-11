@@ -78,6 +78,9 @@ nftset=/github.com/rancher/4#inet#fw4#vpn_domains
 nftset=/metallb.github.io/4#inet#fw4#vpn_domains
 nftset=/kuberay-helm.github.io/4#inet#fw4#vpn_domains
 
+#aws
+nftset=/ecr-public.aws.com4#inet#fw4#vpn_domains
+
 # Google (для некоторых образов)
 nftset=/gcr.io/4#inet#fw4#vpn_domains
 nftset=/*.gcr.io/4#inet#fw4#vpn_domains
